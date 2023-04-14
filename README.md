@@ -20,7 +20,6 @@ Pycaret is a low code python library used for data preparation, model training, 
 ## Evaluate model
 ## Tune model
 ## Finalize model
-Pycaret's `compare_models()` 
 
 # skLearn
 
