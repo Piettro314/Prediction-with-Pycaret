@@ -61,7 +61,8 @@ df_pred.describe().T
 ```
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/DescriptiveTable.png" align="center">
 
-# Click to see skLearn version of predictions
+# Click to see SKLearn version of predictions
+
 Fine-tuning the model yields hyperparameters that can be utilized in skLearn to exercise greater control over the model's learning process. Persistence in this regard is crucial, as it involves an iterative process.
 
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/HyperParameters.png" align="center">
