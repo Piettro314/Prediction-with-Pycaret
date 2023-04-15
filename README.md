@@ -25,13 +25,14 @@ The setup then does all the heavy lifting:
 3) Train and Test split
 
 With many more options for customizations depending on the dataset.
-`GIF of list of options`
+
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/Setup%20Options.gif" align="center">
 
 ## Compare model
 Pycaret runs compares a total of 20 models. Giving the user options for best models to test. Though as said by British statistician George E. P. Box "All models are wrong, but some are useful." 
 
 Compare models gives a good place to start to find those useful models for futher testing
-<img src="https://github.com/Piettro314/Data-Visualization--AirBnB-Europe/blob/main/Media%20Content/EDA.gif" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/CompareModels.png" align="center">
 
 ## Create, tune and finalize model
 Once a model is choosen it is then created, tuned and finalized. 
@@ -44,14 +45,11 @@ f_xgb
 # Visualization
 Results from model then observed using the following charts
 
-### Feature Importance
-<img src="https://github.com/Piettro314/Data-Visualization--AirBnB-Europe/blob/main/Media%20Content/EDA.gif" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/FeatureImportance.png" align="center">
 
-### Residuals
-<img src="https://github.com/Piettro314/Data-Visualization--AirBnB-Europe/blob/main/Media%20Content/EDA.gif" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/ResidualChart.png" align="center">
 
-### Prediciton error
-<img src="https://github.com/Piettro314/Data-Visualization--AirBnB-Europe/blob/main/Media%20Content/EDA.gif" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/PredictionError.png" align="center">
 
 # Predicing the model
 Finally the model is tested against unseen data to see how it perform
@@ -63,13 +61,12 @@ df_pred
 
 df_pred.describe().T
 ```
-
-`Image of Table`
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/HyperParameters.png" align="center">
 
 # Click to see skLearn version of predictions
 The result of tuning the model gives us hyper parameters that we can now take to skLearn for finer control the learning process of the model. Iteration is key!
 
-<img src="https://github.com/Piettro314/Data-Visualization--AirBnB-Europe/blob/main/Media%20Content/EDA.gif" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/HyperParameters.png" align="center">
 
-
-
+# References
+Barroso, G. (2018, May 3). Admore ITN. AdMoRe ITN. Retrieved April 14, 2023, from https://www.lacan.upc.edu/admoreWeb/2018/05/all-models-are-wrong-but-some-are-useful-george-e-p-box/ 
