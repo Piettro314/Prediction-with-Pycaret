@@ -1,8 +1,7 @@
 <h1 align="center" style="color:MediumSeaGreen;"> <b>  Prediction-with-Pycaret</b>
 
 # Objective 
-The goal is to utilize pycaret to predict Air BnB rental prices in multiple European cities for both business and leisure purposes, and to repeat or make these outcomes in sklearn.
-
+The goal is to utilize pycaret to predict Air BnB rental prices in multiple European cities for both business and leisure purposes.
 # Technologies Used
 
 * [Pycaret](https://pycaret.org/)
