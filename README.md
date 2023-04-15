@@ -1,7 +1,7 @@
-# Prediction-with-Pycaret
+<h1 align="center" style="color:MediumSeaGreen;"> <b>  Prediction-with-Pycaret</b>
 
 # Objective 
-To attempt to forecast Europe Air BnB rental rates for both business and leisure travelers in various European cities using pycaret and replicating its results in sklearn.
+The goal is to utilize pycaret to predict Air BnB rental prices in multiple European cities for both business and leisure purposes, and to repeat or make these outcomes in sklearn.
 
 # Technologies Used
 
@@ -14,27 +14,26 @@ To attempt to forecast Europe Air BnB rental rates for both business and leisure
 # Pycaret
 Pycaret is a low code python library used for data preparation, model training, hyperparameter tuning, model evaluation, and deployment. 
 
-## Data preparation and setup
-Data preparation and setup
+## Data preparation and setup the model
+A regression model was selected, but due to the impact of outliers on the accuracy of the predictions, it was deemed necessary to eliminate them in order to achieve a more effective model. However, the data was preserved and exported to a CSV file for potential future use.
 
-The type of model choose was regression. Because of the effect of outliers on the predictions it was decided in an attempt to get a better model that the outliers be removed. However, the data was reserved and exported to csv for future use if needed.
+The subsequent steps of the process handled the bulk of the work:
 
-The setup then does all the heavy lifting:
-1) One hot encoding
-2) Imputations
-3) Train and Test split
-
-With many more options for customizations depending on the dataset.
-
+1) Conducting one-hot encoding
+2) Implementing imputations
+3) Separating data into training and testing sets
+  
+Additional adjustments can be made depending on the specific dataset.
+  
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/Setup%20Options.gif" align="center">
 
-## Compare model
-Pycaret runs compares a total of 20 models. Giving the user options for best models to test. Though as said by British statistician George E. P. Box "All models are wrong, but some are useful." 
+## Compare the model
+Pycaret executes and evaluates 20 different models, allowing the user to select the most promising models for further examination. However, as British statistician George E. P. Box famously stated, <b>"All models are wrong, but some are useful."</b>
 
-Compare models gives a good place to start to find those useful models for futher testing
+Comparing the models provides a solid foundation for identifying potentially valuable models to explore more extensively.
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/CompareModels.png" align="center">
 
-## Create, tune and finalize model
+## Create, tune and finalize the model
 Once a model is choosen it is then created, tuned and finalized. 
 ```
 xgb = create_model('xgboost')
@@ -51,7 +50,7 @@ Results from model then observed using the following charts
 
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/PredictionError.png" align="center">
 
-# Predicing the model
+# Predict the model
 Finally the model is tested against unseen data to see how it perform
 ```
 pred = predict_model(f_xgb,data=data_unseen)
@@ -61,10 +60,10 @@ df_pred
 
 df_pred.describe().T
 ```
-<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/HyperParameters.png" align="center">
+<img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/DescriptiveTable.png" align="center">
 
 # Click to see skLearn version of predictions
-The result of tuning the model gives us hyper parameters that we can now take to skLearn for finer control the learning process of the model. Iteration is key!
+Fine-tuning the model yields hyperparameters that can be utilized in skLearn to exercise greater control over the model's learning process. Persistence in this regard is crucial, as it involves an iterative process.
 
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/HyperParameters.png" align="center">
 
