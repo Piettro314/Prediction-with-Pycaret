@@ -33,7 +33,7 @@ Comparing the models provides a solid foundation for identifying potentially val
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/CompareModels.png" align="center">
 
 ## Create, tune and finalize the model
-Once a model is choosen it is then created, tuned and finalized. 
+After a model has been selected, it is developed, fine-tuned, and ultimately completed. In this instance, the xbgboost model was chosen based on its strong showing in the comparison process, in top 5, and personal familiarity with it.
 ```
 xgb = create_model('xgboost')
 t_xgb= tune_model(xgb)
@@ -41,7 +41,7 @@ f_xgb = finalize_model(t_xgb)
 f_xgb
 ```
 # Visualization
-Results from model then observed using the following charts
+Results from model then observed using the following charts.
 
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/FeatureImportance.png" align="center">
 
