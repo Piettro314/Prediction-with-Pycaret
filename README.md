@@ -60,7 +60,7 @@ df_pred.describe().T
   
 Upon examining the outcome, it was found that the mean deviation between the projected and actual cost, in comparison to unobserved data, was -3.29%.
 
-# [Click to see SKLearn version of predictions](https://github.com/Piettro314/Prediction-with-skLearn)
+# [Click to see skLearn version of predictions](https://github.com/Piettro314/Prediction-with-skLearn)
 
 Fine-tuning the model yields hyperparameters that can be utilized in skLearn to exercise greater control over the model's learning process. Persistence in this regard is crucial, as it involves an iterative process.
 
