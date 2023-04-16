@@ -58,7 +58,7 @@ df_pred.describe().T
 ```
 <img src="https://github.com/Piettro314/Prediction-with-Pycaret/blob/main/media%20content/DescriptiveTable.png" align="center">
   
-Result observed the average difference between the predicted and the actual cost when compared with unseen data was -1.05%
+Upon examining the outcome, it was found that the mean deviation between the projected and actual cost, in comparison to unobserved data, was -3.29%.
 
 # Click to see SKLearn version of predictions
 
