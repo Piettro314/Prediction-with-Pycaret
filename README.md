@@ -5,10 +5,7 @@ The goal is to utilize pycaret to predict Air BnB rental prices in multiple Euro
 # Technologies Used
 
 * [Pycaret](https://pycaret.org/)
-* [skLearn](https://scikit-learn.org/stable/index.html)
 * [pandas](https://pandas.pydata.org/)
-* [seaborn](https://scikit-learn.org/stable/index.html)
-* [Yellowbrick](https://www.scikit-yb.org/en/latest/)
 
 # Pycaret
 Pycaret is a low code python library used for data preparation, model training, hyperparameter tuning, model evaluation, and deployment. 
